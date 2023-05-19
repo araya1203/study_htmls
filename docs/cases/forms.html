@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="index.html">   
+   <h3>Billding address</h3> 
+   <div></div>
+    <div>First Name <input type="text" name="first" placeholder="ARA"></div>
+    <div>Valid first name is required.</div>
+    
+    <div>last Name <input type="text" name="last" placeholder="Jo"></div>
+    <div>Valid last name is required.</div>
+   
+    <div>Usename <input type="text" name="Usename" placeholder="araya"></div>
+    <div>Your usename is required. </div>
+    
+    <div>Email (optional) <input type="text" name="email" placeholder="dddd2511@gmail.com"></div>
+    <div>please enter a valid email address for shipping updates.</div>
+    
+    <div>Address:<input type="text" name="address" placeholder="1234 Main st"><div></div>
+    <div>Pleade enter your shipping address.</div>
+     
+    <div>Address 2 (optional):<input type="text" name="address 2" placeholder="000-0000"></div>
+    <div>
+        <label for="Country">Country:</label> 
+        
+       <select name="Country" id="Country">
+        <option value="USA">USA</option>
+        <option value="Korea">Korea</option>
+        <option value="China">China</option>
+        <option value="Japan">Japan</option>
+        </select>
+    </div> 
+
+    <div>
+        <label for="State">State</label> 
+        
+        <select name="State" id="State">
+        <option value="Gyeonggi-do">Gyeonggi-do</option>    
+        <option value="Chuncheong-do">Chuncheong-do</option>
+        <option value="Gangwon-do">Gangwon-do</option>
+        </select>
+    </div> 
+    <div>Zip: <input type="file" value="파일선택"></div>
+    <div>Zip code required.</div>
+<hr>
+    <div><input type="checkbox" name="mycheckfirst" checked>Shipping Address</div>
+    <div><input type="checkbox" name="mychecksecond">Save information</div> 
+   
+<hr>
+   <div><input type="radio" name="payment" value="redit card" id="" checked>Credit card </div>
+   <div><input type="radio" name="Payment" value="Debit card" id="">Debit card</div>
+   <div><input type="radio" name="payment" value="paypal" id="">paypal</div>
+    
+    <h3>Payment</h3>
+    <div></div>
+    <div> Name on card: <input type="text" name="mynameoncard"  placeholder="KB"></div> 
+    <div> Credit Card Number: <input type="text" name="myCreditCardNumber" placeholder="000-0000-0000"></div>
+    <div> Expiration Date: <input type="Date" name="mydate" value="2023-05-16"></div>
+    <div> CVV: <input type="text" name=" myCVV" placeholder="123"></div>
+<hr>
+    <div><button type="submit"> Countinue to Checkout</button></div> 
+</form>    
+</body>    
+</html>
